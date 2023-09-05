@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sqlalchemy-to-pydantic"
+version = "0.0.3"
+description = ""
+authors = ["Jack Zhai <zhaijiawei0828@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sqlalchemy_to_pydantic"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.3.0"
+sqlalchemy = "^2.0.20"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.1"
+sqlalchemy-utc = "^0.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pyright]
+reportGeneralTypeIssues = false
+reportOptionalMemberAccess = false
