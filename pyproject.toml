@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "sqlalchemy-to-pydantic"
-version = "0.0.3"
-description = ""
+version = "0.0.8"
+description = "Tools to convert SQLAlchemy models to Pydantic models"
 authors = ["Jack Zhai <zhaijiawei0828@gmail.com>"]
 readme = "README.md"
 packages = [{include = "sqlalchemy_to_pydantic"}]
@@ -14,7 +14,6 @@ sqlalchemy = "^2.0.20"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.1"
-sqlalchemy-utc = "^0.14.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -24,3 +23,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.pyright]
 reportGeneralTypeIssues = false
 reportOptionalMemberAccess = false
+
+[project.urls]
+Homepage = "https://github.com/wezhai/sqlalchemy-to-pydantic.git"
+Issues = "https://github.com/wezhai/sqlalchemy-to-pydantic/issues"

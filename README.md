@@ -1,6 +1,8 @@
 Tools to generate Pydantic models from SQLAlchemy models.
 
-forked from [tiangolo/pydantic-sqlalchemy](https://github.com/tiangolo/pydantic-sqlalchemy)
+
+
+[Source Code](https://github.com/wezhai/sqlalchemy-to-pydantic.git) forked from [tiangolo/pydantic-sqlalchemy](https://github.com/tiangolo/pydantic-sqlalchemy)
 
 Only support pydantic V2
 
